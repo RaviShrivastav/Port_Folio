@@ -26,12 +26,15 @@ const Training = () => {
               icon={<AiFillSafetyCertificate />}
             >
               <h3 className="vertical-timeline-element-title">
-                Full-Stack Developler Intern
+                Full-Stack Developer Intern
               </h3>
               <h4 className="vertical-timeline-element-subtitle">At Edureka</h4>
               <p>
-                Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading
+                During my Edureka internship, I immersed myself in MERN stack
+                projects, mastering HTML, CSS, JavaScript, Node.js, Express.js,
+                React, and MongoDB. I learned to create UI design with React,
+                and database management. This experience honed my skills and
+                deepened my understanding of full-stack web development.
               </p>
             </VerticalTimelineElement>
             {/* <VerticalTimelineElement

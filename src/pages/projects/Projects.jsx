@@ -1,6 +1,8 @@
 import React from "react";
 import "./projects.css";
-import projectImg from "../../assets/images/Screenshot0.png";
+import projectImgM from "../../assets/images/Screenshot0.png";
+import projectImgW from "../../assets/images/weather.png";
+import projectImgB from "../../assets/images/bubble.png";
 import Swing from "react-reveal/Swing";
 
 const Projects = () => {
@@ -21,7 +23,7 @@ const Projects = () => {
             <div className="card rounded">
               <div className="card-image">
                 <span className="card-notify-badge">Front-End</span>
-                <img src={projectImg} alt="poject1" />
+                <img src={projectImgM} alt="poject1" />
               </div>
               <div className="card-image-overly m-auto mt-3">
                 <span className="card-detail-badge">React</span>
@@ -46,21 +48,23 @@ const Projects = () => {
           <div className="col-md-4">
             <div className="card rounded">
               <div className="card-image">
-                <span className="card-notify-badge">Full Stack</span>
-                <img src={projectImg} alt="poject1" />
+                <span className="card-notify-badge">Front-End</span>
+                <img src={projectImgB} alt="poject1" />
               </div>
               <div className="card-image-overly m-auto mt-3">
-                <span className="card-detail-badge">Node</span>
-                <span className="card-detail-badge">Express</span>
-                <span className="card-detail-badge">React</span>
-                <span className="card-detail-badge">MongoDb</span>
-                <span className="card-detail-badge">Redux</span>
+                <span className="card-detail-badge">JavaScript</span>
+                <span className="card-detail-badge">HTML</span>
+                <span className="card-detail-badge">CSS</span>
               </div>
               <div className="card-body text-center">
                 <div className="ad-title m-auto">
-                  <h5 className="text-uppercase">Ecommerce-Website</h5>
+                  <h5 className="text-uppercase">The Bubble Game</h5>
                 </div>
-                <a className="ad-btn" href="#">
+                <a
+                  className="ad-btn"
+                  href="https://port-folio-jkuq.vercel.app/"
+                  target="_blank"
+                >
                   View
                 </a>
               </div>
@@ -69,20 +73,23 @@ const Projects = () => {
           <div className="col-md-4">
             <div className="card rounded">
               <div className="card-image">
-                <span className="card-notify-badge">Full Stack</span>
-                <img src={projectImg} alt="poject1" />
+                <span className="card-notify-badge">Front-End</span>
+                <img src={projectImgW} alt="poject1" />
               </div>
               <div className="card-image-overly m-auto mt-3">
-                <span className="card-detail-badge">Node</span>
-                <span className="card-detail-badge">Express</span>
-                <span className="card-detail-badge">React</span>
-                <span className="card-detail-badge">MongoDb</span>
+                <span className="card-detail-badge">JavaScript</span>
+                <span className="card-detail-badge">HTML</span>
+                <span className="card-detail-badge">CSS</span>
               </div>
               <div className="card-body text-center">
                 <div className="ad-title m-auto">
-                  <h5 className="text-uppercase">Tomato</h5>
+                  <h5 className="text-uppercase">Weather-App</h5>
                 </div>
-                <a className="ad-btn" href="view">
+                <a
+                  className="ad-btn"
+                  href="https://weather-app-six-lime.vercel.app/"
+                  target="_blank"
+                >
                   View
                 </a>
               </div>

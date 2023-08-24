@@ -4,10 +4,13 @@ import { Link } from "react-scroll";
 import { RxHalf1 } from "react-icons/rx";
 import { AiOutlineHome } from "react-icons/ai";
 import { FcAbout, FcContacts, FcVoicePresentation } from "react-icons/fc";
-import { FaReadme } from "react-icons/fa";
+import { FaReadme, FaRegFileCode } from "react-icons/fa";
 import { LiaProjectDiagramSolid } from "react-icons/lia";
 import { PiCertificate } from "react-icons/pi";
 import { GrTechnology } from "react-icons/gr";
+import { TiContacts } from "react-icons/ti";
+import { BsInfoCircle } from "react-icons/bs";
+
 import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 
@@ -46,7 +49,7 @@ const Menu = ({ toggle }) => {
                     offset={-100}
                     duration={100}
                   >
-                    <FcAbout />
+                    <BsInfoCircle />
                     About
                   </Link>
                 </div>
@@ -75,7 +78,7 @@ const Menu = ({ toggle }) => {
                     offset={-100}
                     duration={100}
                   >
-                    <GrTechnology />
+                    <FaRegFileCode />
                     Tech Stack
                   </Link>
                 </div>
@@ -119,7 +122,7 @@ const Menu = ({ toggle }) => {
                     offset={-100}
                     duration={100}
                   >
-                    <FcContacts />
+                    <TiContacts />
                     Contact
                   </Link>
                 </div>
@@ -152,7 +155,7 @@ const Menu = ({ toggle }) => {
                   offset={-100}
                   duration={100}
                 >
-                  <FcAbout />
+                  <BsInfoCircle />
                 </Link>
               </div>
             </div>
@@ -179,7 +182,7 @@ const Menu = ({ toggle }) => {
                   offset={-100}
                   duration={100}
                 >
-                  <GrTechnology />
+                  <FaRegFileCode />
                 </Link>
               </div>
             </div>
@@ -220,7 +223,7 @@ const Menu = ({ toggle }) => {
                   offset={-100}
                   duration={100}
                 >
-                  <FcContacts />
+                  <TiContacts />
                 </Link>
               </div>
             </div>

@@ -38,7 +38,9 @@ const Education = () => {
             iconStyle={{ background: "#138781", color: "#fff" }}
             icon={<FaBookReader />}
           >
-            <h3 className="vertical-timeline-element-title">PGDCA</h3>
+            <h3 className="vertical-timeline-element-title ">
+              Post Graduation Diploma In Computer Application
+            </h3>
             <h4 className="vertical-timeline-element-subtitle">Bhopal, IN</h4>
             {/* <p>
               Creative Direction, User Experience, Visual Design, Project

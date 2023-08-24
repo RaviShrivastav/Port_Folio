@@ -5,9 +5,12 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { RxHalf1 } from "react-icons/rx";
 import { AiOutlineHome, AiOutlineMenuFold } from "react-icons/ai";
 import { FcAbout, FcContacts, FcVoicePresentation } from "react-icons/fc";
-import { FaReadme } from "react-icons/fa";
+import { BsInfoCircle } from "react-icons/bs";
+
+import { FaReadme, FaRegFileCode } from "react-icons/fa";
 import { LiaProjectDiagramSolid } from "react-icons/lia";
 import { PiCertificate } from "react-icons/pi";
+import { TiContacts } from "react-icons/ti";
 import { GrTechnology } from "react-icons/gr";
 import { useState } from "react";
 
@@ -71,7 +74,7 @@ const MobileNav = () => {
                     duration={100}
                     onClick={handleMenuClick}
                   >
-                    <FcAbout />
+                    <BsInfoCircle />
                     About
                   </Link>
                 </div>
@@ -102,7 +105,7 @@ const MobileNav = () => {
                     duration={100}
                     onClick={handleMenuClick}
                   >
-                    <GrTechnology />
+                    <FaRegFileCode />
                     Tech Stack
                   </Link>
                 </div>
@@ -149,7 +152,7 @@ const MobileNav = () => {
                     duration={100}
                     onClick={handleMenuClick}
                   >
-                    <FcContacts />
+                    <TiContacts />
                     Contact
                   </Link>
                 </div>

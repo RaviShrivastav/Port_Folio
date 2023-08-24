@@ -34,6 +34,7 @@ const Contact = () => {
                     <Link
                       className="contact-link"
                       to="https://www.linkedin.com/in/ravi-shrivastav-ba156b214/"
+                      target="_blank"
                     >
                       <BsLinkedin
                         color="blue"
@@ -43,7 +44,10 @@ const Contact = () => {
                       Contact with Me on Linkdein
                     </Link>
                     <br />
-                    <Link to="https://github.com/RaviShrivastav">
+                    <Link
+                      to="https://github.com/RaviShrivastav"
+                      target="_blank"
+                    >
                       <BsGithub
                         color="black"
                         className="ms-2 contact-Icon"
@@ -52,14 +56,12 @@ const Contact = () => {
                       Contact with Me on GitHub
                     </Link>
                     <br />
-                    <Link to="">
-                      <MdEmail
-                        color="red"
-                        className="ms-2 contact-Icon"
-                        size={30}
-                      />
-                      ravishrivastav1126@gmail.com
-                    </Link>
+                    <MdEmail
+                      color="red"
+                      className="ms-2 contact-Icon"
+                      size={30}
+                    />
+                    ravishrivastav1126@gmail.com
                     <br />
                     <BsTelephoneFill
                       color="blue"

@@ -2,7 +2,7 @@ import React from "react";
 import { useTheme } from "../context/TheameContext";
 import "./home.css";
 import Typewriter from "typewriter-effect";
-import Resume from "../assets/docs/RAVI SHRIVASTAV (1).pdf";
+import Resume from "../assets/docs/RAVI_SHRIVASTAV.pdf";
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
 import Fade from "react-reveal/Fade";
 const Home = () => {
@@ -37,7 +37,7 @@ const Home = () => {
           <Fade bottom>
             <div className="home-buttons">
               <a
-                href="https://api.whatsapp.com/send?phone=7xxxxxxxx5"
+                href="https://api.whatsapp.com/send?phone=7000132275"
                 className="btn btn-hire"
                 rel="noreferrer"
                 target="_blank"
